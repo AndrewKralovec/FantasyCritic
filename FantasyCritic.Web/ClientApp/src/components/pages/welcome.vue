@@ -55,7 +55,7 @@
 
     <div class="row justify-content-center">
       <div class="col-xl-4 offset-xl-1 col-lg-5 offset-lg-1 col-md-0 offset-md-0 computer-image-area">
-        <img src="/img/monitor-mock.png" class="computer-image" />
+        <img src="/img/monitor-mock.png" class="computer-image" alt="Monitor with fantasycritic.games displayed on the screen" />
       </div>
       <div class="col-lg-5 col-md-12 get-started-area">
         <div class="get-started-message">

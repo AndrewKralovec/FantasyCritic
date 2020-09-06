@@ -20,17 +20,27 @@
         </div>
 
         <div class="form-group">
-          <label for="password" class="control-label">Password</label>
+          <label id="password-label" for="password" class="control-label">Password</label>
           <ValidationProvider rules="required|min:8|max:200|password:@confirmPassword" v-slot="{ errors }">
-            <input v-model="password" name="password" type="password" class="form-control input">
+            <input
+              v-model="password"
+              name="password"
+              type="password"
+              class="form-control input"
+              aria-labelledby="password-label">
             <span class="text-danger">{{ errors[0] }}</span>
           </ValidationProvider>
         </div>
 
         <div class="form-group">
-          <label for="confirmPassword" class="control-label">Confirm Password</label>
+          <label id="confirm-password" for="confirmPassword" class="control-label">Confirm Password</label>
           <ValidationProvider name="confirmPassword" rules="required" v-slot="{ errors }">
-            <input v-model="confirmPassword" name="confirmPassword" type="password" class="form-control input">
+            <input
+              v-model="confirmPassword"
+              name="confirmPassword"
+              type="password"
+              class="form-control input"
+              aria-labelledby="confirm-password">
             <span class="text-danger">{{ errors[0] }}</span>
           </ValidationProvider>
         </div>

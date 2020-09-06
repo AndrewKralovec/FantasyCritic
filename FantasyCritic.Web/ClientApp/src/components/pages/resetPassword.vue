@@ -10,12 +10,12 @@
           <input v-model="emailAddress" id="emailAddress" name="emailAddress" type="text" class="form-control input" />
         </div>
         <div class="form-group">
-          <label for="password" class="control-label">Password (Must be at least 12 characters)</label>
-          <input v-model="password" id="password" name="password" type="password" class="form-control input" />
+          <label id="password-label" for="password" class="control-label">Password (Must be at least 12 characters)</label>
+          <input v-model="password" id="password" name="password" type="password" class="form-control input" aria-labelledby="password-label" />
         </div>
         <div class="form-group">
-          <label for="cPassword" class="control-label">Confirm Password</label>
-          <input v-model="confirmPassword" id="cPassword" name="cPassword" type="password" class="form-control input" />
+          <label id="confirm-password" for="cPassword" class="control-label">Confirm Password</label>
+          <input v-model="confirmPassword" id="cPassword" name="cPassword" type="password" class="form-control input" aria-labelledby="confirm-label" />
         </div>
         <div class="form-group">
           <div class="right-button">

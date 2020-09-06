@@ -2,8 +2,8 @@
     <div>
       <nav class="navbar navbar-expand bg-white main-nav">
         <router-link :to="{ name: 'welcome' }" class="navbar-brand">
-          <img class="full-logo" src="/img/horizontal-logo.svg" />
-          <img class="minimal-logo" src="/img/minimal-logo.svg" />
+          <img class="full-logo" src="/img/horizontal-logo.svg" alt="Controller with fantasycritic.games text" />
+          <img class="minimal-logo" src="/img/minimal-logo.svg" alt="Controller with fantasycritic.games text" />
         </router-link>
         <div class="navbar-collapse collapse">
           <ul class="navbar-nav">

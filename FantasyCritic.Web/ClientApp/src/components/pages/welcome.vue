@@ -41,7 +41,7 @@
 
     <div class="row welcome-area">
       <div class="col-md-5 offset-md-1 col-sm-12 critic-royale-logo-area">
-        <img class="critic-royale-logo" src="/img/critic-royale-logo.svg" />
+        <img class="critic-royale-logo" src="/img/critic-royale-logo.svg" alt="Swords and shield crest with the text Critics Royale on the shield" />
       </div>
       <div class="col-md-6 col-sm-12">
         <p class="welcome-message">

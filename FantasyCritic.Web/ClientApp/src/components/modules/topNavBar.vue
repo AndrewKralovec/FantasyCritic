@@ -10,7 +10,7 @@
             <li class="nav-item">
               <router-link :to="{ name: 'criticsRoyale', params: {year: activeRoyaleYear, quarter: activeRoyaleQuarter}}"
                            class="nav-link top-nav-link optional-nav critic-royale-nav-link" title="Critics Royale">
-                <img class="critic-royale-nav minimal-nav topnav-icon" src="/img/critics-royale-top-nav.svg" />
+                <img class="critic-royale-nav minimal-nav topnav-icon" src="/img/critics-royale-top-nav.svg" alt="Swords and shield crest" />
                 <span class="full-nav">Royale</span>
               </router-link>
             </li>

@@ -101,7 +101,7 @@
               This year is not active yet!
             </h2>
             <ul>
-              <li v-for="error in leagueYear.playStatus.startDraftErrors">{{error}}</li>
+              <li v-for="(error, index) in leagueYear.playStatus.startDraftErrors" :key="index">{{error}}</li>
             </ul>
           </div>
 

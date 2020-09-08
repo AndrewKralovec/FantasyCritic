@@ -3,8 +3,8 @@
     <div class="container">
       <div class="row justify-content-between">
         <div col-md-4>
-          <img class="full-logo" src="/img/logo-white.png" alt="Controller with Fantasy Critic text" />
-          <img class="small-logo" src="/img/small-logo-white.png" alt="Controller with Fantasy Critic text" />
+          <img class="full-logo" src="/img/logo-white.png" aria-hidden="true" />
+          <img class="small-logo" src="/img/small-logo-white.png" aria-hidden="true" />
         </div>
         <div col-md-4>
           <label>Navigation</label>

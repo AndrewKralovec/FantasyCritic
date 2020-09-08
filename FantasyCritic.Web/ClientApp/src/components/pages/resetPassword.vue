@@ -14,7 +14,7 @@
           <input v-model="password" id="password" name="password" type="password" class="form-control input" aria-labelledby="password-label" />
         </div>
         <div class="form-group">
-          <label id="confirm-password" for="cPassword" class="control-label">Confirm Password</label>
+          <label id="confirm-label" for="cPassword" class="control-label">Confirm Password</label>
           <input v-model="confirmPassword" id="cPassword" name="cPassword" type="password" class="form-control input" aria-labelledby="confirm-label" />
         </div>
         <div class="form-group">

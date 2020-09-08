@@ -33,14 +33,14 @@
         </div>
 
         <div class="form-group">
-          <label id="confirm-password" for="confirmPassword" class="control-label">Confirm Password</label>
+          <label id="confirm-label" for="confirmPassword" class="control-label">Confirm Password</label>
           <ValidationProvider name="confirmPassword" rules="required" v-slot="{ errors }">
             <input
               v-model="confirmPassword"
               name="confirmPassword"
               type="password"
               class="form-control input"
-              aria-labelledby="confirm-password">
+              aria-labelledby="confirm-label">
             <span class="text-danger">{{ errors[0] }}</span>
           </ValidationProvider>
         </div>

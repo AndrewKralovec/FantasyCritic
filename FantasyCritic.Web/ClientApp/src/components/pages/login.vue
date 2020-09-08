@@ -13,12 +13,36 @@
           </div>
           <form v-on:submit.prevent="login" class="col-lg-10 col-md-12 offset-lg-1 offset-md-0">
             <div class="form-group">
-              <label for="emailAddress" class="control-label">Email Address</label>
-              <input v-model="emailAddress" type="text" class="form-control input" />
+              <label
+                id="email-label"
+                for="emailAddress"
+                class="control-label"
+                >Email Address</label
+              >
+              <input
+                v-model="emailAddress"
+                id="emailAddress"
+                name="emailAddress"
+                type="text"
+                class="form-control input"
+                aria-labelledby="email-label"
+              />
             </div>
             <div class="form-group">
-              <label for="password" class="control-label">Password</label>
-              <input v-model="password" type="password" class="form-control input" />
+              <label
+                id="pass-label"
+                for="password"
+                class="control-label"
+                >Password</label
+              >
+              <input
+                v-model="password"
+                id="password"
+                name="password"
+                type="password"
+                class="form-control input"
+                aria-labelledby="pass-label"
+              />
             </div>
             <div class="alert alert-danger" v-if="error">Login failed</div>
             <div class="form-group">

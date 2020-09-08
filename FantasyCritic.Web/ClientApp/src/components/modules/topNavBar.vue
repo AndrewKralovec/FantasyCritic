@@ -70,7 +70,7 @@
                     {{displayName}}
                     <span class="caret"></span>
                   </a>
-                  <div class="dropdown-menu dropdown-menu-right top-nav-dropdown" aria-labelledby="navbarDropdown">
+                  <div class="dropdown-menu dropdown-menu-right top-nav-dropdown" role="navigation" aria-label="Account">
                     <router-link :to="{ name: 'manageUser' }" class="dropdown-item">Manage Account</router-link>
                     <div class="dropdown-divider"></div>
                     <a class="dropdown-item" href="#" v-on:click="logout()">Log off</a>
